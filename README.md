@@ -1,2 +1,59 @@
-# cpp-neural-network
-C++ implementation of a fully connected neural network from scratch, including a custom matrix class, backpropagation, ReLU activation, and XOR classification.
+# Neural Network from Scratch in C++
+
+This project implements a fully connected feedforward neural network from scratch in C++ without external machine learning libraries. The implementation includes custom matrix algebra, backpropagation, ReLU activation layers, gradient-based optimization, and training on the XOR classification problem. This project was developed as part of the Object Oriented Scientific Programming with C++ course at TU Delft.
+
+## Features
+- Custom templated matrix class
+- Dynamic memory management
+- Forward and backward propagation
+- ReLU activation layers
+- Mean squared error (MSE) loss
+- Gradient-based optimization
+- XOR classification
+- Object-oriented neural network architecture
+
+## Network Architecture
+
+The neural network consists of:
+
+- Linear layer
+- ReLU activation layer
+- Linear output layer
+
+The implementation supports:
+
+- Matrix multiplication
+- Matrix addition/subtraction
+- Transpose operations
+- Scalar multiplication
+- Gradient computation
+- Parameter optimization
+- Training
+
+The network is trained on the XOR classification problem using:
+
+- Mean Squared Error (MSE) loss
+- Backpropagation
+- Gradient descent optimization
+
+The training loop performs:
+
+- Forward propagation
+- Loss computation
+- Backward propagation
+- Parameter optimization
+- Accuracy evaluation
+
+## Requirements
+C++17 compatible compiler
+g++
+## Build
+
+Compile the project using:
+
+g++ -std=c++17 -Iinclude src/main.cpp -o neural_network
+## Run
+### Windows
+.\neural_network
+### Linux / macOS
+./neural_network

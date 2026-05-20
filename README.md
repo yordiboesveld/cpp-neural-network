@@ -25,8 +25,6 @@ The network is trained on the XOR classification problem using:
 - hidden layer dimension: `100`
 - optimization steps: `100`
 - number of samples: `4`
-- Mean Squared Error (MSE) loss
-- gradient descent optimization
 
 The training loop performs:
 

@@ -35,8 +35,7 @@ The training loop performs:
 - Accuracy evaluation
 
 ## Requirements
-- C++17 compatible compiler
-- g++
+- C++17 compatible compiler (e.g. g++)
 ## Build
 
 Compile the project using:

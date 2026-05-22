@@ -21,10 +21,10 @@ The neural network consists of:
 
 ## Training Configuration
 The network is trained on the XOR classification problem using:
-- learning rate: `0.005`
-- hidden layer dimension: `100`
-- optimization steps: `100`
-- number of samples: `4`
+- Learning rate: `0.005`
+- Hidden layer dimension: `100`
+- Optimization steps: `100`
+- Number of samples: `4`
 
 The training loop performs:
 
